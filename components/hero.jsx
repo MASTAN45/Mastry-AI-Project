@@ -30,14 +30,13 @@ const HeroSection = () => {
     <section className="w-full pt-36 md:pt-48 pb-10">
       <div className="space-y-6 text-center">
         <div className="space-y-6 mx-auto">
-          <h1 className="text-5xl font-bold md:text-6xl lg:text-7xl xl:text-8xl gradient-title animate-gradient">
-            Your AI Career Coach for
+          <h1 className="text-4xl font-bold md:text-5xl lg:text-7xl xl:text-8xl gradient-title animate-gradient">
+            Master Your Career with AI
             <br />
-            Professional Success
+            Achieve Professional Success
           </h1>
           <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl">
-            Advance your career with personalized guidance, interview prep, and
-            AI-powered tools for job success.
+            Get personalized guidance, ace your interviews, and build a resume that stands out.
           </p>
         </div>
         <div className="flex justify-center space-x-4">
@@ -46,9 +45,9 @@ const HeroSection = () => {
               Get Started
             </Button>
           </Link>
-          <Link href="https://www.youtube.com/roadsidecoder">
+          <Link href="https://www.youtube.com/@JourneyWithMastan">
             <Button size="lg" variant="outline" className="px-8">
-              Watch Demo
+              Subscribe
             </Button>
           </Link>
         </div>
@@ -56,8 +55,8 @@ const HeroSection = () => {
           <div ref={imageRef} className="hero-image">
             <Image
               src="/banner.jpeg"
-              width={1280}
-              height={720}
+              width={1000}
+              height={500}
               alt="Dashboard Preview"
               className="rounded-lg shadow-2xl border mx-auto"
               priority
@@ -70,3 +69,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
